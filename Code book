@@ -1,0 +1,21 @@
+The R script executes the data cleaning on the data which was already downloaded as follows:
+
+1. Assigning variables 
+features <- features.txt 
+activities <- activity_labels.txt 
+sub_test <- test/subject_test.txt 
+x_test <- test/X_test.txt 
+y_test <- test/y_test.txt 
+sub_train <- test/subject_train.txt 
+x_train <- test/X_train.txt 
+y_train <- test/y_train.txt 
+
+2. Merge the test subjects,training and test data using the cbind ()
+
+3. Extracting the data from merged data in step2 based on the two parameters of mean and standard deviation using the pipe operator to tidy_data variable .
+
+4. The second column of the tidy_data is replaced by the activities taken from the text file provided
+
+5. All the new variables are assigned to the the tidy_data
+
+6. The final data is extracted to the text file.
