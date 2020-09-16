@@ -2,6 +2,7 @@
 
 This is the part of Coursera project for Getting and Cleaning data.
 R script, with the file name run_analysis.R, executes the following:
+
 1.Merges the training and the test sets to create one data set.
 
 2.Extracts only the measurements on the mean and standard deviation for each measurement.
